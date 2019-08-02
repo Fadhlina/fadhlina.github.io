@@ -1,0 +1,335 @@
+
+/* Start font*/
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro|Roboto&display=swap');
+/* End font*/
+
+/*Start Body*/
+body{ 
+    background-color: antiquewhite;
+    color: brown;
+    font-family: Crimson Pro,  serif;
+    font-size: 18px;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/*Start Debug*/
+.bg-brown {
+    background-color: brown;
+}
+.bg-burlywood {
+    background-color: burlywood;
+}
+.bg-antiquewhite {
+    background-color: antiquewhite;
+}
+/*End Debug*/
+
+/* Start Container*/
+.container {
+    margin: 5px auto;
+    overflow:  auto;
+    width:90%;
+}
+.container-full {
+    margin: 5px auto;
+    overflow:  auto;
+    width:100%;
+}
+/* End Container*/
+
+/*Start logo*/
+.logo{
+    text-align: center;
+}
+/*End logo*/
+
+/*Start Anchor / Hyperlink*/
+a:link,
+a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:hover,
+a:visited {
+    color:brown;
+    text-decoration: none;
+}
+
+/*End Anchor / Hyperlink*/
+
+/*Start menu primer*/
+.menu-primer ul {
+    background-color: brown;
+    border-radius:4px;
+    box-shadow: 
+        0 3px 5px- 1px rgba(red, green, blue, alpha),
+        0 6px 18px 0 rgba(red, green, blue, alpha),
+        0 1px 18px 0 rgba(red, green, blue, alpha);
+}
+.menu-primer li{
+    border-right: 1px solid antiquewhite;
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: burlywood;
+    font-size: 14px;
+    display:inline-block;
+    letter-spacing:1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover{
+    background-color: antiquewhite;
+    color: brown; 
+    text-decoration:none;
+}
+.menu-primer .active {
+    background-color: antiquewhite;
+    color: brown;
+    text-decoration:none;
+}
+/* End menu primer */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;  
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron*/
+.jumbotron {
+    background-color: burlywood;
+    border: 1px solid brown;
+    border-radius: 4px;
+    padding: 20px
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+/* End Jumbotron*/
+
+/* Start Main */
+.main-home-one {
+    float:left;
+    width:65%;
+}
+.main-home-two {
+    float:right;
+    width:65%; 
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 80px;
+}
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: wheat;
+    border: 1px solid burlywood;
+    border-radius: 3px 3px 0 0;
+    margin: 5;
+    padding: 10px 20px;
+ }
+ .box-heading h4 {
+     font-size: 16px;
+     margin: 0;
+ }
+ .box-isi {
+    background-color: wheat;
+    border: 1px solid burlywood;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+ }
+/* End Box */
+
+
+
+/* Start Menu Sekunder*/
+.menu-sekunder {
+    display: inline-block; 
+    background-color: burlywood;
+    border-bottom: 1px solid wheat;
+    border-top: 1px solid burlywood;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two {
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+.menu-sekunder-one {
+    width : 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width : 30%;
+}
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+
+/* End Menu Sekunder*/
+
+/* Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright*/
+
+/* Start Wow Factor*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600;);
+.snip1573 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  max-width: 29%;
+  min-width: 29%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.snip1573 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.snip1573:before,
+.snip1573:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #000000;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.snip1573:before {
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.snip1573:after {
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.snip1573 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1573 figcaption {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.snip1573 h3 {
+  background-color: #000000;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.snip1573 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.snip1573:hover > img,
+.snip1573.hover > img {
+  opacity: 0.5;
+}
+
+.snip1573:hover:before,
+.snip1573.hover:before {
+  -webkit-transform: skew(45deg) translateX(-55%);
+  transform: skew(45deg) translateX(-55%);
+}
+
+.snip1573:hover:after,
+.snip1573.hover:after {
+  -webkit-transform: skew(45deg) translateX(55%);
+  transform: skew(45deg) translateX(55%);
+}
+
+.snip1573:hover figcaption,
+.snip1573.hover figcaption {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+/* Start Wow Factor*/
